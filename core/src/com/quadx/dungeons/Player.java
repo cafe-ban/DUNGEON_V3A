@@ -253,13 +253,30 @@ public class Player {
         }
     }
     public void setAbsPos(Vector2 a){
+<<<<<<< HEAD
         absPos = a;
         absPos = a;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> master
         absPos.x = a.x;
         absPos.y = a.y;
         px = (int) EMath.round(a.x);
         py = (int) EMath.round(a.y);
+<<<<<<< HEAD
         setPos(new Vector2((int) (EMath.round(absPos.x / cellW)), (int) (EMath.round(absPos.y / cellW))));
+=======
+<<<<<<< HEAD
+=======
+        absPos=a;
+        setPos(new Vector2((int) (EMath.round(absPos.x / cellW)),(int) (EMath.round(absPos.y / cellW))));
+>>>>>>> refs/remotes/ranger2242/master
+=======
+>>>>>>> origin/master
+>>>>>>> master
     }
     public void setPos(Vector2 v){
         x= (int) v.x;
