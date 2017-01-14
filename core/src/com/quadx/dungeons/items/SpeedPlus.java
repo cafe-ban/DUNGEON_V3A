@@ -11,6 +11,6 @@ public class SpeedPlus extends Item {
         name="Speed+";
         speedmod+=1;
         cost=1000 ;
-        setIcon(new Texture("images\\icons\\items\\icSpd+.png"));
+        setIcon(new Texture("images/icons/items/icSpd+.png"));
     }
 }

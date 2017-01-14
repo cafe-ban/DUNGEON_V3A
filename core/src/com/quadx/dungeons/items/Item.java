@@ -63,7 +63,7 @@ public class Item
     }
     public void loadIcon(String s){
         try {
-            icon = new Texture(Gdx.files.internal("images\\icons\\items\\ic" + s + ".png"));
+            icon = new Texture(Gdx.files.internal("images/icons/items/ic" + s + ".png"));
         }catch (GdxRuntimeException e){
             if(this.isEquip){
                 MapState.out(this.getClass().getName());

@@ -139,7 +139,7 @@ enemy and player knock back
         BitmapFont temp=new BitmapFont();
 
         try {
-            FreeTypeFontGenerator generator= new FreeTypeFontGenerator(Gdx.files.internal("fonts\\prstart.ttf"));
+            FreeTypeFontGenerator generator= new FreeTypeFontGenerator(Gdx.files.internal("fonts/prstart.ttf"));
             FreeTypeFontGenerator.FreeTypeFontParameter parameter= new FreeTypeFontGenerator.FreeTypeFontParameter();
             parameter.size = x;
             temp = generator.generateFont(parameter);
